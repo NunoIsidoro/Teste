@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MenuBackgroundEffect_Mat
+  m_Shader: {fileID: 4800000, guid: dd13ade8a8e907e4cb1f69799d6b9044, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Alpha: 1
+    - _CenterRadius: 0.15
+    - _CenterSmoothness: 0.02
+    - _FadePower: 1
+    - _InnerFadeStart: 0.2
+    - _OuterFadeEnd: 1
+    - _RayCount: 16
+    - _RayWidth: 0.4
+    - _RotationSpeed: 0.1
+    - _TimeMultiplier: 1
+    m_Colors:
+    - _BackgroundColor: {r: 0.09999991, g: 0.6, b: 0.6, a: 0.43137255}
+    - _BaseColor: {r: 1, g: 0.8078432, b: 0, a: 1}
+    - _CenterColor: {r: 0.098039225, g: 0.6, b: 0.6, a: 1}
+    - _Color1: {r: 1, g: 0.672561, b: 0, a: 1}
+    - _Color2: {r: 1, g: 0.7411765, b: 0, a: 1}
+    - _Color3: {r: 1, g: 0.7411765, b: 0, a: 1}
+    - _RayColor: {r: 0.19999984, g: 0.8, b: 0.8, a: 0.8235294}
+    - _Scale1: {r: 15, g: 0.4, b: 0.975, a: 0}
+    - _Scale2: {r: 25, g: 0.8, b: 0.5, a: 0}
+    - _Scale3: {r: 75, g: 3.2, b: 0.8, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
